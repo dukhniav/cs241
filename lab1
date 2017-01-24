@@ -1,0 +1,24 @@
+
+import java.util.LinkedList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.*;
+import java.io.*;
+
+public class Wordifier {
+
+
+    // loadSentences
+    // Preconditions:
+    //    - textFilename is the name of a plaintext input file
+    // Postconditions:
+    //  - A LinkedList<String> object is returned that contains
+    //    all of the tokens in the input file, in order
+    // Notes:
+    //  - If opening any file throws a FileNotFoundException, print to standard error:
+    //        "Error: Unable to open file " + textFilename
+    //        (where textFilename contains the name of the problem file)
+    //      and then exit with value 1 (i.e. System.exit(1))
+        public static LinkedList<String> loadSentences( String textFilename ) {
+
+                LinkedList<String> token = new LinkedList<String>();
